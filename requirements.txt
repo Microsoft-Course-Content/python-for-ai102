@@ -1,0 +1,71 @@
+# ============================================================
+#  📦 Python for AI-102 — Requirements
+# ============================================================
+#
+#  Install all packages:
+#     pip install -r requirements.txt
+#
+#  These are organized in two sections:
+#  Section 1 — Needed to run the 6 training notebooks
+#  Section 2 — Needed when you move to actual AI-102 labs
+#
+# ============================================================
+
+
+# ─────────────────────────────────────────────────
+# SECTION 1: Required for Training Notebooks (1–6)
+# ─────────────────────────────────────────────────
+
+# Load environment variables from .env files
+python-dotenv>=1.0.0
+
+# Make HTTP requests to REST APIs
+requests>=2.31.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+
+
+# ─────────────────────────────────────────────────
+# SECTION 2: Required for AI-102 Lab Exercises
+# ─────────────────────────────────────────────────
+
+# --- Core Azure SDK ---
+azure-core>=1.30.0
+azure-identity>=1.15.0
+
+# --- Azure AI Language (Text Analytics, NLP) ---
+azure-ai-textanalytics>=5.3.0
+
+# --- Azure AI Vision (Computer Vision, OCR) ---
+azure-ai-vision-imageanalysis>=1.0.0
+
+# --- Azure AI Speech ---
+azure-cognitiveservices-speech>=1.35.0
+
+# --- Azure AI Document Intelligence (Form Recognizer) ---
+azure-ai-documentintelligence>=1.0.0
+
+# --- Azure AI Search (Knowledge Mining) ---
+azure-search-documents>=11.4.0
+
+# --- Azure OpenAI ---
+openai>=1.12.0
+
+# --- Azure AI Translation ---
+azure-ai-translation-text>=1.0.0
+
+# --- Azure Key Vault (Security Labs) ---
+azure-keyvault-secrets>=4.8.0
+
+# --- Image Processing ---
+pillow>=10.0.0
+matplotlib>=3.8.0
+
+# --- Data Processing ---
+numpy>=1.24.0
+
+# --- Utilities ---
+pylint>=3.0.0
