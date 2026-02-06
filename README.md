@@ -1,6 +1,11 @@
-# 🐍 Python for AI-102 — Azure AI Engineer Associate
+# 🐍 python-for-ai102
 
-> **A 6-hour hands-on Python crash course designed for students preparing for Microsoft AI-102 certification labs.**
+> **Learn only the Python you need for Microsoft AI-102 labs — 6 Jupyter Notebooks covering foundations to Azure SDK patterns. Free & open-source.**
+
+[![GitHub](https://img.shields.io/badge/License-MIT-blue.svg)](#-license)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](#-software-requirements)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange?logo=jupyter)](#-repository-contents)
+[![AI-102](https://img.shields.io/badge/Microsoft-AI--102-purple?logo=microsoft)](#-ai-102-lab-repositories-for-after-this-course)
 
 ---
 
@@ -45,7 +50,7 @@ This course bridges that gap. It teaches **only the Python you need** to confide
 ## 📂 Repository Contents
 
 ```
-Python_for_AI102/
+python-for-ai102/
 │
 ├── 📓 01_Python_Foundations.ipynb           ← Notebook 1
 ├── 📓 02_Data_Structures.ipynb             ← Notebook 2
@@ -233,10 +238,10 @@ python --version
 
 ```bash
 # Option A: Using Git
-git clone <repository-url>
-cd Python_for_AI102
+git clone https://github.com/<your-org>/python-for-ai102.git
+cd python-for-ai102
 
-# Option B: Download ZIP and extract
+# Option B: Download ZIP and extract from GitHub
 # Then navigate to the extracted folder
 ```
 
@@ -366,6 +371,27 @@ pip install                 Installing Azure SDK packages
 | `.env` values not loading | Make sure file is named `.env` (not `.env.example`) and is in the same folder |
 | Azure API returns 401 | Double-check your API key in the `.env` file |
 | Azure API returns 403 | Check your resource's region and endpoint URL |
+
+---
+
+## 🏷️ GitHub Topics
+
+Add these topics to your repo for discoverability:
+
+```
+python  ai-102  azure  microsoft-certification  jupyter-notebook
+azure-ai  mct  python-tutorial  azure-ai-services  cloud-computing
+```
+
+---
+
+## ⭐ Support This Project
+
+If this helped you or your students:
+
+- ⭐ **Star** the repo — it helps others find it
+- 🍴 **Fork** it — customize for your classroom
+- 📢 **Share** it — tag someone prepping for AI-102
 
 ---
 

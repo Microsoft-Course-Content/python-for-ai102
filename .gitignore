@@ -1,0 +1,47 @@
+# ============================================================
+#  .gitignore — python-for-ai102
+# ============================================================
+
+# ---- Environment Variables (NEVER commit your real keys!) ----
+.env
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ---- Virtual Environments ----
+venv/
+env/
+.venv/
+ENV/
+
+# ---- Jupyter Notebook ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Temporary Files Created by Notebooks ----
+sample_review.txt
+sample_image.png
+config.json
+results.json
+analysis_results.json
+reviews/
+text-files/
